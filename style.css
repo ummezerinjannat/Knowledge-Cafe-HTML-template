@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Exo+2:wght@500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+    padding:0px;
+    font-family:'Exo 2';
+
+}
+a{
+    text-decoration: none;
+}
+h1,h3,h4{
+    margin: 0;
+    color: #111111;
+}
+header{
+    /* background-color: blue; */
+}
+header h1{
+    margin: 0px;
+
+}
+.container{
+    width: 1280px ;
+    margin: auto;
+    padding: auto;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    margin-top: 40px;
+    border-bottom: 1px solid rgba(17, 17, 17,0.15);
+    padding-bottom: 22px;
+}
+.profile{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+/* main */
+main{
+    display: flex;
+    margin-top:31px;
+    gap: 24px;
+}
+.blog-post{
+    width:845px;
+}
+.side-bar{
+    width:411px;
+}
+.time-spent{
+    background-color: rgba(96, 71, 236, 0.1);
+    border: 1px solid #6047EC;
+    color: #6047EC;
+    font-weight: bold;
+    font-style: 24px;
+    padding: 20px 50px;
+    border-radius: 8px;
+}
+.bookmark{
+    background-color: rgba(17, 17, 17,0.05);
+    margin-top: 24px;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+
+.bookmark ul li{
+    list-style: none;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 16px;
+
+}
+.bookmark ul{
+    padding: 0;
+    margin: 0;
+}
+
+
+a{
+    font-weight: 600px;
+    color: #111111;
+}
+/* blogs */
+.blogs-details{
+    display: flex;
+    margin-top: 32px;
+    gap: 24px;
+}
+/* .blogs-details div{
+    gap: 24px;
+} */
+.author-name{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 160%;
+    color: #111111;
+}
+.publish-date{
+    color: rgba(17, 17, 17,0.6);
+}
+.blogs-meta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgba(17, 17, 17,0.6);
+    
+}
+.read-time-container{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.read-time+svg{
+    fill:rgba(17, 17, 17,0.6);
+    
+}
+.blog-post{
+    border-bottom: 1px solid rgba(17, 17, 17,0.1);
+    padding: 40px 0;
+}
+.blog-post:last-child{
+    margin-bottom: 227px;
+    border-bottom: none;
+}
+.blog-post:first-child{
+    padding-top: 0;
+}
+.blog-title{
+    font-weight: bold;
+    font-size: 40px;
+}
+.blog-tags{
+    
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+.blog-tags li a{
+    color: rgba(17, 17, 17,0.6);
+}
+.blog-tags{
+    padding: 0;
+    
+}
+.mark-as-read {
+    color: #6047EC;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 21px;
+    display: block
+}
